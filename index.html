@@ -1,0 +1,22 @@
+<html>
+  <head>
+  <!-- other head stuff... -->
+  <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+</head>
+<body>
+ <div class="main-gallery">
+  <div class="gallery-cell">...</div>
+  <div class="gallery-cell">...</div>
+  <div class="gallery-cell">...</div>
+  ...
+</div>
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <script>
+    var flkty = new Flickity( '.main-gallery', {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+  </script>
+</body>
+</html>
